@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ea60802-47ca-49ad-b88d-ca5b842ed795" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/img/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/img/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/AbstractChildClassifierFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/AbstractChildClassifierFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/classifier/AbstractChildEntity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/classifier/AbstractChildEntity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/converter/AbstractClassifierConverter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/converter/AbstractClassifierConverter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/AbstractClassifierFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/AbstractClassifierFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/classifier/AbstractEntity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/classifier/AbstractEntity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/model/functionals/AbstractFunctional.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/model/functionals/AbstractFunctional.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/utility/BigDecimalHelper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/utility/BigDecimalHelper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ChildClassifierCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ChildClassifierCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ChildClassifierFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ChildClassifierFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/classifier/ChildEntity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/classifier/ChildEntity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ClassifierCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ClassifierCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ClassifierDao$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ClassifierDao$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ClassifierDao$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ClassifierDao$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ClassifierDao$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ClassifierDao$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ClassifierDao$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ClassifierDao$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ClassifierDao$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ClassifierDao$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ClassifierDao$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ClassifierDao$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ClassifierDao$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ClassifierDao$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ClassifierDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ClassifierDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ClassifierDaoTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ClassifierDaoTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ClassifierFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ClassifierFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/classifier/ClassifiersHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/classifier/ClassifiersHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/managedBean/ContactSubForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/managedBean/ContactSubForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/classifier/Currency.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/classifier/Currency.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/DaoException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/DaoException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/classifier/location/District.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/classifier/location/District.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/classifier/Entity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/classifier/Entity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/model/functionals/FunctionalStatus.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/model/functionals/FunctionalStatus.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/Initializer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/Initializer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/model/Money.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/model/Money.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/classifier/Organisation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/classifier/Organisation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/managedBean/OrganisationSubForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/model/Project.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/model/Project.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/model/functionals/ProjectContact.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/model/functionals/ProjectContact.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/dao/ProjectDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ProjectDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/dao/ProjectDaoTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/model/functionals/ProjectDonor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/model/functionals/ProjectDonor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/managedBean/ProjectForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/managedBean/ProjectForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/model/functionals/ProjectLocation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/model/functionals/ProjectLocation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/model/ProjectTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/model/ProjectTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/managedBean/ProjectsForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/managedBean/ProjectsForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/classifier/location/Province.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/classifier/location/Province.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/classifier/location/Region.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/classifier/location/Region.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/report/controller/ReportChooser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/report/controller/ReportChooser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/report/dao/ReportDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/report/dao/ReportDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/report/ReportItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/report/ReportItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/report/controller/ReportsListLoader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/report/controller/ReportsListLoader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/classifier/sector/Sector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/classifier/sector/Sector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/report/SectorReport.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/report/SectorReport.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/report/SectorReportItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/report/SectorReportItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/target/classes/com/synisys/training/de/classifier/sector/SubSector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/target/classes/com/synisys/training/de/classifier/sector/SubSector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/img/add-button-hover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/img/add-button-hover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/img/btn-bg-focus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/img/btn-bg-focus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/img/btn-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/img/btn-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/img/btn_left_act.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/img/btn_left_act.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/img/btn_left_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/img/btn_left_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/img/btn_right_act.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/img/btn_right_act.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/img/btn_right_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/img/btn_right_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/lib/c3p0-0.9.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/c3p0-0.9.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/libs/c3p0-0.9.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/img/close_inline.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/img/close_inline.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/lib/commons-beanutils-1.8.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/commons-beanutils-1.8.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/libs/commons-beanutils-1.8.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/lib/commons-codec-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/commons-codec-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/libs/commons-codec-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/lib/commons-collections-3.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/commons-collections-3.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/libs/commons-collections-3.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/lib/commons-digester-1.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/commons-digester-1.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/libs/commons-digester-1.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/libs/commons-logging-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/lib/guava-14.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/guava-14.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/libs/guava-14.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/lib/hamcrest-core-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/hamcrest-core-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/libs/hamcrest-core-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/img/ico_cal.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/img/ico_cal.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/img/ico_del_act2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/img/ico_del_act2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/img/img11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/img/img11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/lib/joda-time-2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/joda-time-2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/libs/joda-time-2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jsp-api-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jstl-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/lib/jtds-1.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jtds-1.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/libs/jtds-1.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/lib/junit-4.11.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/junit-4.11.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/libs/junit-4.11.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/lib/myfaces-api-2.1.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/myfaces-api-2.1.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/libs/myfaces-api-2.1.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/lib/myfaces-impl-2.1.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/myfaces-impl-2.1.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/libs/myfaces-impl-2.1.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/img/optsbg_gr2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/img/optsbg_gr2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/dao/AbstractChildClassifierFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/dao/AbstractChildClassifierFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/classifier/AbstractChildEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/classifier/AbstractChildEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/converter/AbstractClassifierConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/converter/AbstractClassifierConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/dao/AbstractClassifierFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/dao/AbstractClassifierFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/classifier/AbstractEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/classifier/AbstractEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/model/functionals/AbstractFunctional.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/model/functionals/AbstractFunctional.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/utility/BigDecimalHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/utility/BigDecimalHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/dao/ChildClassifierCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/dao/ChildClassifierCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/dao/ChildClassifierFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/dao/ChildClassifierFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/classifier/ChildEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/classifier/ChildEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/dao/ClassifierCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/dao/ClassifierCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/dao/ClassifierDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/dao/ClassifierDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/test/java/com/synisys/training/de/dao/ClassifierDaoTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/test/java/com/synisys/training/de/dao/ClassifierDaoTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/dao/ClassifierFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/dao/ClassifierFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/classifier/ClassifiersHolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/classifier/ClassifiersHolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/ContactAddEditForm.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/ContactAddEditForm.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/managedBean/ContactSubForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/managedBean/ContactSubForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/ContractAddEditForm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/classifier/Currency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/classifier/Currency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/dao/DaoException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/dao/DaoException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/classifier/location/District.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/classifier/location/District.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/reports/DonorsReport.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/reports/DonorsReport.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/classifier/Entity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/classifier/Entity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/model/functionals/FunctionalStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/model/functionals/FunctionalStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/Initializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/Initializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/model/Money.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/model/Money.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/classifier/Organisation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/classifier/Organisation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/OrganisationCreationForm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/OrganisationCreationForm.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/managedBean/OrganisationSubForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/model/Project.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/model/Project.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/ProjectAddEditForm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/ProjectAddEditForm.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/ProjectAddEditForm.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/ProjectApplication.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/ProjectApplication.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/.idea/artifacts/ProjectApplication_Web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/.idea/artifacts/ProjectApplication_Web_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ProjectApplication_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ProjectApplication_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/model/functionals/ProjectContact.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/model/functionals/ProjectContact.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/dao/ProjectDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/dao/ProjectDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/test/java/com/synisys/training/de/dao/ProjectDaoTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/model/functionals/ProjectDonor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/model/functionals/ProjectDonor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/managedBean/ProjectForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/managedBean/ProjectForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/model/functionals/ProjectLocation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/model/functionals/ProjectLocation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/test/java/com/synisys/training/de/model/ProjectTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/test/java/com/synisys/training/de/model/ProjectTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/ProjectsAndReportsList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/ProjectsAndReportsList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/ProjectsAndReportsList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/ProjectsAndReportsList.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/ProjectsAndReportsList.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/managedBean/ProjectsForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/managedBean/ProjectsForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/reports/ProjectsReport.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/reports/ProjectsReport.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/classifier/location/Province.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/classifier/location/Province.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/classifier/location/Region.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/classifier/location/Region.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/reports/RegionsReport.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/reports/RegionsReport.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/report/controller/ReportChooser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/report/controller/ReportChooser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/report/dao/ReportDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/report/dao/ReportDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/report/ReportItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/report/ReportItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/report/controller/ReportsListLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/report/controller/ReportsListLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/classifier/sector/Sector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/classifier/sector/Sector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/report/SectorReport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/report/SectorReport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/report/SectorReportItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/report/SectorReportItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/SectorsReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/reports/SectorsReport.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/reports/SectorsReport.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/src/main/java/com/synisys/training/de/classifier/sector/SubSector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/src/main/java/com/synisys/training/de/classifier/sector/SubSector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/faces-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/WEB-INF/faces-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/.idea/libraries/libs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/js/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/js/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/js/valid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/js/valid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/WebContent/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\Users\arthur.rafayelyan\Desktop\JSF-Training\JSF PROJECT\ProjectApplication.iml" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\arthur.rafayelyan\Desktop\JSF-Training\JSF PROJECT\.metadata\WebContent\WEB-INF\faces-config.pageflow" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/.metadata/WebContent/WEB-INF/faces-config.pageflow" />
+      <change type="MOVED" beforePath="C:\Users\arthur.rafayelyan\Desktop\JSF-Training\JSF PROJECT\.settings\.jsdtscope" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/.settings/.jsdtscope" />
+      <change type="MOVED" beforePath="C:\Users\arthur.rafayelyan\Desktop\JSF-Training\JSF PROJECT\.settings\org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MOVED" beforePath="C:\Users\arthur.rafayelyan\Desktop\JSF-Training\JSF PROJECT\.settings\org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/.settings/org.eclipse.m2e.core.prefs" />
+      <change type="MOVED" beforePath="C:\Users\arthur.rafayelyan\Desktop\JSF-Training\JSF PROJECT\.settings\org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/.settings/org.eclipse.wst.common.component" />
+      <change type="MOVED" beforePath="C:\Users\arthur.rafayelyan\Desktop\JSF-Training\JSF PROJECT\.settings\org.eclipse.wst.common.project.facet.core.prefs.xml" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" />
+      <change type="MOVED" beforePath="C:\Users\arthur.rafayelyan\Desktop\JSF-Training\JSF PROJECT\.settings\org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/.settings/org.eclipse.wst.common.project.facet.core.xml" />
+      <change type="MOVED" beforePath="C:\Users\arthur.rafayelyan\Desktop\JSF-Training\JSF PROJECT\.settings\org.eclipse.wst.jsdt.ui.superType.container" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/.settings/org.eclipse.wst.jsdt.ui.superType.container" />
+      <change type="MOVED" beforePath="C:\Users\arthur.rafayelyan\Desktop\JSF-Training\JSF PROJECT\.settings\org.eclipse.wst.jsdt.ui.superType.name" afterPath="$PROJECT_DIR$/../JSF PROJECT OLD/ProjectApplication/.settings/org.eclipse.wst.jsdt.ui.superType.name" />
+    </list>
+    <ignored path="JSF PROJECT INTELLIJ.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="JSF PROJECT INTELLIJ" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="faces-config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/faces-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8060345" vertical-offset="0" max-vertical-offset="561">
+              <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectAddEditForm.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjApp/WebContent/ProjectAddEditForm.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.0384617" vertical-offset="4118" max-vertical-offset="4675">
+              <caret line="253" column="50" selection-start-line="253" selection-start-column="50" selection-end-line="253" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ProjApp/WebContent/ProjectAddEditForm.xhtml" />
+        <option value="$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/faces-config.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSF PROJECT INTELLIJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSF PROJECT INTELLIJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSF PROJECT INTELLIJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.1614654" />
+    <property name="project.structure.side.proportion" value="0.28754365" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.ProjApp">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProjApp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.30" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/ProjApp/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ProjectApplication:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ProjApp" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_JSF_PROJECT_INTELLIJ_2" />
+        <option name="HTTP_PORT" value="8088" />
+        <option name="JNDI_PORT" value="1999" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58530" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ProjectApplication:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.ProjApp" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ea60802-47ca-49ad-b88d-ca5b842ed795" name="Default" comment="" />
+      <created>1429103122184</created>
+      <option name="number" value="Default" />
+      <updated>1429103122184</updated>
+      <workItem from="1429103125398" duration="720000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="720000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30149597" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3319838" vertical-offset="584" max-vertical-offset="1598">
+          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjApp/WebContent/ProjectAddEditForm.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.0384617" vertical-offset="4118" max-vertical-offset="4675">
+          <caret line="253" column="50" selection-start-line="253" selection-start-column="50" selection-end-line="253" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/myfaces-impl-2.1.12.jar!/org/apache/myfaces/resource/web-facesconfig_2_1.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3319838" vertical-offset="6823" max-vertical-offset="11594">
+          <caret line="411" column="12" selection-start-line="411" selection-start-column="12" selection-end-line="411" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjApp/WebContent/WEB-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8060345" vertical-offset="0" max-vertical-offset="561">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ProjectApplication:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28754365" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (ProjectApplication)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28754365" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|ProjectApplication</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28754365" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>libs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28754365" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

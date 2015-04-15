@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html dir="ltr" xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<head>
+    <title>Projects and Reports List Form</title>
+    <link rel='stylesheet' type='text/css' href='./css/main.css' />
+    <link rel='stylesheet' type='text/css' href='./css/style.css' />
+    <script type="text/javascript" src="./js/utils.js"></script>
+
+</head>
+<body class='body-style'>
+<f:view>
+    <div class='main-container'>
+        <h:form styleClass="form-style1">
+            <div class='content'>
+                <h2 class='field-area fontSize11'>
+                    <span class='field-title'>Projects List</span>
+                </h2>
+
+                <table class='table-style fontSize11 table-style2'>
+                    <tr>
+                        <th class='table-header th-style1'></th>
+                        <th class='table-header th-style'><span>Projects</span></th>
+                    </tr>
+                    <ui:repeat value="#{projectsForm.projects}" var="project">
+                        <tr>
+                            <td class='td-style'>
+                                <h:commandLink
+                                        onclick="return sis.utils.confirm('Delete anyway?');"
+                                        styleClass="ico-del1" title="Delete"
+                                        action="#{projectsForm.deleteProject(project)}"></h:commandLink>
+                            </td>
+                            <td class='td-style'>
+                                <h:commandLink styleClass="link-style" title="Edit Project"
+                                               action="ProjectAddEditForm" actionListener="#{projectForm.loadCurrentProject(project.id)}" value="#{project.title}">
+                                </h:commandLink>
+                            </td>
+                        </tr>
+                    </ui:repeat>
+                </table>
+                <h:commandLink styleClass="button-style2" value="Add" actionListener="#{projectForm.addNewProject(-1)}" action="projectAddEditForm"/>
+
+            </div>
+        </h:form>
+    </div>
+
+</f:view>
+</body>
+</html>

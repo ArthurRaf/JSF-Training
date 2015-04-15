@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="lib" path="C:/Users/arthur.rafayelyan/Desktop/JSF TRAINING/libs for final JSF project/libs/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arthur.rafayelyan/Desktop/JSF TRAINING/libs for final JSF project/libs/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arthur.rafayelyan/Desktop/JSF TRAINING/libs for final JSF project/libs/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arthur.rafayelyan/Desktop/JSF TRAINING/libs for final JSF project/libs/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arthur.rafayelyan/Desktop/JSF TRAINING/libs for final JSF project/libs/commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arthur.rafayelyan/Desktop/JSF TRAINING/libs for final JSF project/libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arthur.rafayelyan/Desktop/JSF TRAINING/libs for final JSF project/libs/guava-14.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arthur.rafayelyan/Desktop/JSF TRAINING/libs for final JSF project/libs/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arthur.rafayelyan/Desktop/JSF TRAINING/libs for final JSF project/libs/joda-time-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arthur.rafayelyan/Desktop/JSF TRAINING/libs for final JSF project/libs/jtds-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arthur.rafayelyan/Desktop/JSF TRAINING/libs for final JSF project/libs/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arthur.rafayelyan/Desktop/JSF TRAINING/libs for final JSF project/libs/myfaces-api-2.1.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arthur.rafayelyan/Desktop/JSF TRAINING/libs for final JSF project/libs/myfaces-impl-2.1.12.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_31">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Tomcat 7.0.30"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/libs"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

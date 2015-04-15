@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+<title>Contract Add/Edit Form</title>
+<link rel='stylesheet' type='text/css' href='./css/main.css'>
+<link rel='stylesheet' type='text/css' href='./css/style.css'>
+<script type="text/javascript" src="./js/utils.js"></script>
+<script type="text/javascript" src="./js/valid.js"></script>
+</head>
+<body class='body-style'>
+<div class='main-container'>
+<form class="form-style1">
+  <h1 class='section-title fontSize18 floatLeft'>Contract Add/Edit Form</h1>
+  <span class='required-fields fontSize13 '><span class='required-style'>*</span> Required Fields</span>
+  <div class="clear"></div>
+  <div class='content'>
+    <h2 class='field-area fontSize11'> <span class='field-title-num'>5.1</span> <span class='field-title'>First Name</span> <span class='required-style'>*</span> </h2>
+    <input id="firstName" class='input-style input-style1 input-req-style' type='text' value='John' />
+    <label id="error_firstName" class="error-label">This field is required!</label>
+    <h2 class='field-area fontSize11'> <span class='field-title-num'>5.2</span> <span class='field-title'>Last Name</span> <span class='required-style'>*</span> </h2>
+    <input id="lastName" class='input-style input-style1 input-req-style' type='text' value='' />
+    <label id="error_lastName" class="error-label">This field is required!</label>
+    <h2 class='field-area fontSize11'> <span class='field-title-num'>5.3</span> <span class='field-title'>Organisation</span> <span class='required-style'>*</span> </h2>
+    <select id="organisation" class='input-style input-req-style'>
+      <option value="">--Select Organisation--</option>
+      <option value="1" selected='selected'>UNDAP</option>
+      <option value="2">ADB</option>
+    </select>
+    <label id="error_organisation" class="error-label">This field is required!</label>
+    <h2 class='field-area fontSize11'> <span class='field-title-num'>5.4</span> <span class='field-title'>E-mail</span> <span class='required-style'>*</span> </h2>
+    <input id="email" class='input-style input-style1 input-req-style' type='text' value='John@mt.gov' />
+    <label id="error_email" class="error-label">Incorrect email!</label>
+    <h2 class='field-area fontSize11'> <span class='field-title-num'>5.5</span> <span class='field-title'>Phone (000-000-000)</span> <span class='required-style'>*</span> </h2>
+    <input id="phone" class='input-style input-style1 input-req-style' type='text' value='232-232-323' />
+    <label id="error_phone" class="error-label">Incorrect phone!</label>
+  </div>
+  <div class='floatRight'>
+    <button class='button-style1' onclick="return sis.valid.validateContactForm();">Ok</button>
+    <button class='button-style1' formaction="./ProjectAddEditForm.html">Cancel</button>
+  </div>
+  <div class="clear"></div>
+</form>
+</div>
+</body>
+</html>

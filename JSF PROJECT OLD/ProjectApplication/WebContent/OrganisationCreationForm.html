@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+<title>Project Data Entry Form</title>
+<link rel='stylesheet' type='text/css' href='./css/main.css'>
+<link rel='stylesheet' type='text/css' href='./css/style.css'>
+<script type="text/javascript" src="./js/utils.js"></script>
+<script type="text/javascript" src="./js/valid.js"></script>
+</head>
+<body class='body-style'>
+<div class='main-container'>
+<form class="form-style1">
+	<h1 class='section-title fontSize18 floatLeft'>Organisation Creation Form</h1>
+	<span class='required-fields fontSize13'><span class='required-style'>*</span> Required Fields</span>
+	<div class="clear"></div>
+	<div class='content'>
+		<h2 class='field-area fontSize11'>
+			<span class='field-title'>Organisation Name</span>
+			<span class='required-style'>*</span>
+		</h2>
+		<input id="organisation" value='Organisation 1' class='input-style input-style1 input-req-style' type='text'/>
+		<label id="error_organisation" class="error-label">This field is required!</label>
+		<h2 class='field-area fontSize11'>
+			<span class='field-title'>Description</span>
+			<span class='required-style'>*</span>
+		</h2>
+		<textarea id="description" class='input-style input-style1 input-req-style'></textarea>
+		<label id="error_description" class="error-label">This field is required!</label>
+	</div>
+	<div class='floatRight'>
+		<button class='button-style1' onclick="return sis.valid.validateOrganisationForm();">Save And Close</button>
+		<button class='button-style1' formaction="./ProjectAddEditForm.html">Cancel</button>
+	</div>
+	<div class="clear"></div>
+</form>
+</div>
+</body>
+</html>

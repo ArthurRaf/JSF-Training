@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+<title>Project Add/Edit Form</title>
+<link rel='stylesheet' type='text/css' href='./css/main.css'>
+<link rel='stylesheet' type='text/css' href='./css/style.css'>
+<script type="text/javascript" src="./js/utils.js"></script>
+<script type="text/javascript" src="./js/valid.js"></script>
+</head>
+<body class='body-style'>
+<div class='main-container'>
+<form class="form-style1">
+  <h1 class='section-title fontSize18 floatLeft'>Project Add/Edit Form</h1>
+  <span class='required-fields fontSize13'><span class='required-style'>*</span> Required Fields</span>
+  <div class="clear"></div>
+  <div class='content'>
+    <h2 class='field-area fontSize11'> <span class='field-title-num'>1</span> <span class='field-title'>Project Title</span> <span class='required-style'>*</span> </h2>
+    <input id="title" value="Project 1" class='input-style input-style1 input-req-style' type='text' />
+    <label id="error_title" class="error-label">This field is required!</label>
+    <h2 class='field-area fontSize11'> <span class='field-title-num'>2</span> <span class='field-title'>Description</span> <span class='required-style'>*</span> </h2>
+    <textarea id="description" class='input-style input-style1 input-req-style' ></textarea>
+    <label id="error_description" class="error-label">This field is required!</label>
+    <h2 class='field-area fontSize11'> <span class='field-title-num'>3</span> <span class='field-title'>Schedule</span> <span class='required-style'>*</span> </h2>
+    <table class='table-style1'>
+      <tr>
+        <td class="td-style4">Start Date(dd/mm/yyyy)</td>
+        <td class="td-style4">End Date(dd/mm/yyyy)</td>
+        <td class="td-style4">Duration</td>
+      </tr>
+      <tr>
+        <td class="td-style4"><input id="startDate" value="" class="input-req-style input-style "/><label id="error_startDate" class="error-label">Incorrect date!</label></td>
+        <td class="td-style4"><input id="endDate" value="" class="input-req-style input-style "/><label id="error_endDate" class="error-label">Incorrect date!</label></td>
+        <td class="td-style4">0 months 5 days</td>
+      </tr>
+    </table>
+    <h2 class='field-area fontSize11'> <span class='field-title-num'>4</span> <span class='field-title'>Total Amount</span> <span class='required-style'>*</span> </h2>
+    <table class='table-style1'>
+      <tr>
+        <td class="td-style4"><input id="amount" value="1000" class='input-style2 input-req-style' type='text'/><label id="error_amount" class="error-label">This field is required!</label></td>
+        <td class="td-style4">
+          <select id="currency" class='input-style input-req-style'>
+            <option value="">Select Currency</option>
+            <option value="1">USD</option>
+            <option value="2" selected='selected'>DRM</option>
+            <option value="3">RUB</option>
+            <option value="4">EUR</option>
+          </select>
+          <label id="error_currency" class="error-label">This field is required!</label>
+        </td>
+      </tr>
+    </table>
+    <h2 class='field-area fontSize11'> <span class='field-title-num'>5</span> <span class='field-title'>Contacts</span> </h2>
+    <table class='table-style fontSize11 table-style2'>
+      <tr>
+        <th class='table-header th-style1'></th>
+        <th class='table-header th-style'> First Name </th>
+        <th class='table-header th-style'> Last Name </th>
+        <th class='table-header th-style'> Organisation </th>
+        <th class='table-header th-style'> E-mail </th>
+        <th class='table-header th-style'> Phone </th>
+      </tr>
+      <tr>
+        <td class='td-style'><a href='./Blank.html' class='ico-del1' title="Delete" onclick="return sis.utils.confirm('Delete anyway?');">Delete</a></td>
+        <td class='td-style'><a href="./ContractAddEditForm.html" class="link-style1"> John </a> </td>
+        <td class='td-style'><a href="./ContractAddEditForm.html" class="link-style1"> Smith </a></td>
+        <td class='td-style'> UNDP </td>
+        <td class='td-style'> John@mt.gov </td>
+        <td class='td-style'> 232-232-323 </td>
+      </tr>
+      <tr>
+        <td class='td-style'><a href='#' class='ico-del1' title="Delete">Delete</a></td>
+        <td class='td-style'><a href="#" class="link-style1"> Jeff </a> </td>
+        <td class='td-style'><a href="#" class="link-style1"> Baker </a> </td>
+        <td class='td-style'> ADB </td>
+        <td class='td-style'> Jeff@mt.gov </td>
+        <td class='td-style'> 122-23-2343 </td>
+      </tr>
+      <tr>
+        <td class='td-style'></td>
+        <td class='td-style' colspan='5'>
+          <button class='button-style' formaction="./ContractAddEditForm.html">Add New Contact</button>
+          <button class='button-style' formaction="./OrganisationCreationForm.html">Add New Organizaion</button>
+        </td>
+      </tr>
+    </table>
+    <h2 class='field-area fontSize11'> <span class='field-title-num'>6</span> <span class='field-title'>Project Sectors</span> <span class='required-style'>*</span> </h2>
+    <table class='table-style1'>
+      <tr>
+        <td class="td-style4">
+	      <select id="sector" class='input-style select-style input-req-style'>
+	        <option value="">Select Sector</option>
+	        <option value="1">Sector 1</option>
+	        <option value="2" selected='selected'>Sector 2</option>
+	        <option value="3">Sector 3</option>
+	      </select>
+	    <label id="error_sector" class="error-label">This field is required!</label>
+        </td>
+        <td class="td-style4">
+	      <select id="subSector" class='input-style select-style input-req-style'>
+	        <option value="">Select Sub-Sector</option>
+	        <option value="1">Sub-Sector 2.1</option>
+	        <option value="2">Sub-Sector 2.2</option>
+	        <option value="3" selected='selected'>Sub-Sector 2.3</option>
+	      </select>
+	      <label id="error_subSector" class="error-label">This field is required!</label>
+        </td>
+      </tr>
+    </table>
+    <h2 class='field-area fontSize11'> <span class='field-title-num'>7</span> <span class='field-title'>Project Locations</span> </h2>
+    <table class='table-style fontSize11 table-style2'>
+      <tr>
+        <th class='table-header th-style1'></th>
+        <th class='table-header'> Region </th>
+        <th class='table-header'> Province </th>
+        <th class='table-header'> District </th>
+        <th class='table-header th-style2'> % </th>
+      </tr>
+      <tr>
+        <td class='td-style'><a href='./Blank.html' class='ico-del1' title="Delete" onclick="return sis.utils.confirm('Delete anyway?');">Delete</a></td>
+        <td class='td-style'> Atacama </td>
+        <td class='td-style'> Huasco </td>
+        <td class='td-style'></td>
+        <td class='td-style'><input id="percent_111" value="50" class='percent input-style alignRight' type='text'/></td>
+      </tr>
+      <tr>
+        <td class='td-style'><a href='#' class='ico-del1' title="Delete">Delete</a></td>
+        <td class='td-style'> Coquimbo </td>
+        <td class='td-style'> Choapa </td>
+        <td class='td-style'></td>
+        <td class='td-style'><input id="percent_222" value="50" class='percent input-style alignRight ' type='text'/></td>
+      </tr>
+      <tr>
+        <td class='td-style'></td>
+        <td class='td-style' colspan='4'>
+          <select id="region" class='input-style select-style input-req-style'>
+            <option value="">Select Region</option>
+          </select>
+          <select id="province" class='input-style select-style input-req-style'>
+            <option value="">Select Province</option>
+          </select>
+          <select id="district" class='input-style select-style input-req-style'>
+            <option value="">Select District</option>
+          </select>
+          <button class='button-style2'>Add</button>
+        </td>
+      </tr>
+    </table>
+    <h2 class='field-area fontSize11'> <span class='field-title-num'>8</span> <span class='field-title'>Project Donors</span> </h2>
+    <table class='table-style fontSize11 table-style2'>
+      <tr>
+        <th class='table-header'> Available </th>
+        <th class='table-header'></th>
+        <th class='table-header'>Selected</th>
+      </tr>
+      <tr>
+        <td class='td-style'>
+          <select id="donorsAvailable" class='input-style select-style1' multiple='multiple'>
+            <option value="1">Donor 1</option>
+            <option value="2">Donor 2</option>
+            <option value="3">Donor 3</option>
+            <option value="3">Donor 4</option>
+            <option value="5">Donor 5</option>
+            <option value="8">Donor 8</option>
+          </select>
+        </td>
+        <td class='td-style2'><div> <a href='#' class='btn-act-right' title="Select">Select</a> <a href='#' title="Select" class='btn-act-right-dis'>Select</a> <a href='#' class='btn-act-left' title="Remove">Remove</a> <a href='#' class='btn-act-left-dis' title="Remove">Remove</a> </div></td>
+        <td class='td-style'>
+          <span>
+            <select id="donorsSelected" class='input-style select-style1' multiple='multiple'>
+              <option value="6">Donor 6</option>
+              <option value="7">Donor 7</option>
+              <option value="9">Donor 9</option>
+              <option value="10">Donor 10</option>
+            </select>
+          </span>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class='floatRight'>
+    <button class='button-style1' onclick="return sis.valid.validateProjectForm();">Save and Close</button>
+    <button class='button-style1' formaction="./ProjectsAndReportsList.html" onclick="return sis.utils.confirm('Discard changes?');">Cancel</button>
+  </div>
+</form>
+</div>
+</body>
+</html>
