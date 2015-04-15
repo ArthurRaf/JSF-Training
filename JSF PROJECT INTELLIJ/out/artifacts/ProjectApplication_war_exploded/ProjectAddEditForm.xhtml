@@ -157,12 +157,14 @@
                 <h2 class='field-area fontSize11'> <span class='field-title-num'>6</span> <span class='field-title'>Project Sectors</span> <span class='required-style'>*</span> </h2>
                 <table class='table-style1'>
                     <tr>
-
                         <td class="td-style4">
-                            <h:selectOneMenu valueChangeListener="#{projectForm.resetSubSector}" value="#{projectForm.sector}"
-                                             id="sector" styleClass="input-style select-style">
+                            <h:selectOneMenu value="#{projectForm.sector}" id="sector"
+                                             valueChangeListener="#{projectForm.resetSubSector}"
+                                             styleClass="input-style select-style">
                                 <f:selectItem itemLabel="-- Select Sector --"></f:selectItem>
-                                <f:selectItems value="#{classifiersHolder.sectors}" var="sector" itemValue="#{sector}" itemLabel="#{sector.name}"/>
+                                <f:selectItems value="#{classifiersHolder.sectors}"
+                                               var="sector" itemValue="#{sector}"
+                                               itemLabel="#{sector.name}"/>
                                 <f:converter converterId="com.synisys.training.de.converter.ClassifierConverter"/>
                                 <f:ajax execute="sector" render="subSector" immediate="true"/>
                             </h:selectOneMenu>
@@ -170,7 +172,8 @@
                         <td class="td-style4">
                             <h:panelGrid columns="1">
                                 <h:selectOneMenu value="#{projectForm.currentProject.subSector}" id="subSector" required="true"
-                                                 requiredMessage="This field is required!" styleClass="input-style select-style input-req-style">
+                                                 requiredMessage="This field is required!"
+                                                 styleClass="input-style select-style input-req-style">
                                     <f:selectItem itemLabel="-- Select Sub-Sector --"></f:selectItem>
                                     <f:selectItems value="#{projectForm.subSectors}" var="subSector" itemValue="#{subSector}" itemLabel="#{subSector.name}"/>
                                     <f:converter converterId="com.synisys.training.de.converter.ClassifierConverter"/>
@@ -226,9 +229,11 @@
                                                  valueChangeListener="#{projectForm.resetLocation}"
                                                  styleClass="input-style select-style">
                                     <f:selectItem itemLabel="-- Select Region --"></f:selectItem>
-                                    <f:selectItems value="#{classifiersHolder.regions}" var="region" itemValue="#{region}" itemLabel="#{region.name}"/>
+                                    <f:selectItems value="#{classifiersHolder.regions}"
+                                                   var="region" itemValue="#{region}"
+                                                   itemLabel="#{region.name}"/>
                                     <f:converter converterId="com.synisys.training.de.converter.ClassifierConverter"/>
-                                    <f:ajax execute="region" render="province district" immediate="true" listener="#{projectForm.resetLocationChildLevels(1)}"/>
+                                    <f:ajax execute="region" render="province" immediate="true"/>
                                 </h:selectOneMenu>
 
                                 <h:selectOneMenu value="#{projectForm.province}" id="province"

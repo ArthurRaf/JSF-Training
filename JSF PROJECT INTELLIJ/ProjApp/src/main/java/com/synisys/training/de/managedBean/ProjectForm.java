@@ -7,6 +7,7 @@ import java.util.Objects;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.event.ValueChangeEvent;
+import javax.xml.stream.Location;
 
 import com.synisys.training.Initializer;
 import com.synisys.training.de.classifier.Organisation;
@@ -104,9 +105,49 @@ public class ProjectForm {
 		this.organisation = organisation;
 	}
 
-	public Province getProvinces() {
-		return provinces;
+	public List<Province> getProvinces() {
+        Region parent = this.region;
+
+        List<Province> provinces = new ArrayList<>();
+        if (parent != null) {
+            try {
+                provinces.addAll(dao.getClassifierDao().loadProvinces(parent));
+            } catch (DaoException e) {
+                throw new RuntimeException("Can not load sub-sectors", e);
+            }
+        }
+        return provinces;
 	}
+
+
+    public List<District> getDistricts() {
+        Province parent = this.province;
+
+        List<District> districts = new ArrayList<>();
+        if (parent != null) {
+            try {
+                districts.addAll(dao.getClassifierDao().loadDistricts(parent));
+            } catch (DaoException e) {
+                throw new RuntimeException("Can not load sub-sectors", e);
+            }
+        }
+        return districts;
+    }
+
+    public List<SubSector> getSubSectors() {
+        Sector parent = this.sector;
+
+        List<SubSector> subSectors = new ArrayList<>();
+        if (parent != null) {
+            try {
+                subSectors.addAll(dao.getClassifierDao().loadSubSectors(parent));
+            } catch (DaoException e) {
+                throw new RuntimeException("Can not load sub-sectors", e);
+            }
+        }
+        return subSectors;
+    }
+
 
 	public void setProvinces(Province provinces) {
 		this.provinces = provinces;
@@ -120,9 +161,7 @@ public class ProjectForm {
 		this.province = province;
 	}
 
-	public District getDistricts() {
-		return districts;
-	}
+
 
 	public void setDistricts(District districts) {
 		this.districts = districts;
@@ -146,19 +185,7 @@ public class ProjectForm {
 		return null;
 	}
 	
-	public List<SubSector> getSubSectors() {
-		Sector parent = this.sector;
 
-		List<SubSector> subSectors = new ArrayList<>();
-		if (parent != null) {
-			try {
-				subSectors.addAll(dao.getClassifierDao().loadSubSectors(parent));
-			} catch (DaoException e) {
-				throw new RuntimeException("Can not load sub-sectors", e);
-			}
-		}
-		return subSectors;
-	}
 
 	public String saveProjects(){
 		Objects.requireNonNull(currentProject,

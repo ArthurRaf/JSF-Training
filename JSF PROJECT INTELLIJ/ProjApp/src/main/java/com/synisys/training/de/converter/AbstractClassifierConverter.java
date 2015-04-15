@@ -46,6 +46,15 @@ public class AbstractClassifierConverter implements Converter {
                 case "projectForm:currency":
                     list = classifiersHelper.getCurrencies();
                     break;
+                case "projectForm:region":
+                    list = classifiersHelper.getRegions();
+                    break;
+                case "projectForm:province":
+                    list = projectForm.getProvinces();
+                    break;
+                case "projectForm:district":
+                    list = projectForm.getDistricts();
+                    break;
                 default:
                     throw new RuntimeException(String.format("Converter called for unknown component %s", componentId));
             }
